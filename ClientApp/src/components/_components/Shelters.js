@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { ButtonDropdown, ButtonGroup, Row } from "reactstrap";
 
 export class Shelters extends Component {
+  
   constructor(props) {
     super(props);
     this.state = { seconds: 0 };
@@ -21,6 +22,7 @@ export class Shelters extends Component {
   }
 
   render() {
+    
     let infobio =
       "204 Beds (188 beds during the winter season beginning November 15 to March 15 only)Clientele: Single Males and Single Females; 10 beds for families with children 9 years or youngerLen [...]";
     return (
@@ -28,7 +30,6 @@ export class Shelters extends Component {
         <div style={cardStyles.Title}>
           Albuquerque Rescue Mission - Steelbridge
         </div>
-
         <span style={cardStyles.Picture}>
           <img
             src="https://www.homelessshelterdirectory.org/gallery/1444__txu.jpg"
@@ -43,20 +44,19 @@ export class Shelters extends Component {
           href="https://www.google.com?q=525+2nd+St+SW+Albuquerque+NM"
         >
           Address 525 2nd St SW Albuquerque, NM - 87102
+          <div style={cardStyles.info}>Seconds: {this.state.seconds}</div>
+
         </a>
         <Row>
           <ButtonGroup>
             <button style={cardStyles.button}>Profile</button>
             <button style={cardStyles.button}>Location</button>
           </ButtonGroup>
-
           <ButtonGroup>
             <button style={cardStyles.button}>Call</button>
             <button style={cardStyles.button}>Message</button>
           </ButtonGroup>
         </Row>
-
-        <div style={cardStyles.info}>Seconds: {this.state.seconds}</div>
       </div>
     );
   }
@@ -81,20 +81,23 @@ const cardStyles = {
     fontSize: 25,
     color: "black",
   },
+
   button: {
     gridColumnStart: 2,
     backgroundColor: "blue",
     color: "white",
     fontSize: "20px",
-    padding: "10px 60px",
+    padding: "10px",
     borderRadius: "5px",
+    border: "2px solid white",
     height: 40,
     width: 120,
-    margin: "10px 0px",
+    margin: "5px 5px",
     justifyContent: "start",
     alignItems: "start",
     cursor: "pointer",
   },
+
   Picture: {
     display: "box",
     justifyContent: "start",
