@@ -1,0 +1,24 @@
+
+.card-left {
+  background-color: black;
+  overflow: auto;
+  color: white;
+  padding: 1rem;
+  height: auto;
+}
+.card-right {
+  background-color: white;
+  overflow: auto;
+  color: white;
+  padding: 1rem;
+  height: auto;
+}
+
+.grid-home {
+  max-width: 1500px;
+  margin: 5px 5px;
+  padding: 5px 5px;
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(600px, 1fr));
+}

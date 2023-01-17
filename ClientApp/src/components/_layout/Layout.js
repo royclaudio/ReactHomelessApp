@@ -8,7 +8,7 @@ import { NavFooter } from './NavFooter'
 const bodystyle = {
   backgroundColor: "#FFEEEE",
   height: 'calc(100vh - 90px)',
-  width: '100vw',
+  // width: '100vw',
   margin: 0,
   padding: 10,
   textAlign: "center",

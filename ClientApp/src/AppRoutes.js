@@ -14,7 +14,6 @@ const AppRoutes = [
   {
     path: '/fetch-data',
     element: <FetchData />
-  }
+  },
 ];
-
 export default AppRoutes;

@@ -1,0 +1,35 @@
+.container-info {
+    background-color: #93B5C6;
+    color: black;
+    padding: 1rem;
+    max-height: 400px;
+    border-radius: 20px;
+    margin-top: 20px;
+    box-shadow: 0 0 4px 3px blue;
+}
+.img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+  }
+.button {
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    border: 2px solid white;
+    margin: 3px 2px;
+    transition-duration: 0.4s;
+    box-shadow: 0px 0px 2px 2px rgb(0,0,0);
+}
+.button:hover {
+    background-color: #93B5C6; /* Green */
+    color: white;
+  }
+.info-header {
+    margin: 0px 0px;
+    display: grid;
+    gap: 0px;
+    align-items: center;
+    grid-template-columns: 1fr 2fr;
+    /* grid-template-columns: repeat(auto-fit, minmax(600px, 1fr)); */
+}
