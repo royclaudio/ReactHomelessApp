@@ -1,9 +1,8 @@
 import React, { Component, useEffect, useState } from 'react';
 import { Route, Routes } from 'react-router-dom';
 import AppRoutes from './AppRoutes';
-import { Layout } from './components/_layout/Layout';
+import { Layout } from './components/layout/Layout';
 import './custom.css';
-import { MapContainer, TileLayer, Marker, Popup } from 'react-leaflet';
 
 
 export default class App extends Component {
@@ -13,7 +12,6 @@ export default class App extends Component {
     return (
       <Layout>
         <Routes>
-        
           {AppRoutes.map((route, index) => {
             const { element, ...rest } = route;
             return <Route key={index} {...rest} element={element} />;
