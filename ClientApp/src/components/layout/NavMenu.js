@@ -43,7 +43,7 @@ export class NavMenu extends Component {
           style={{ backgroundColor: "#EBD8C3" }}
         >
           <NavbarBrand tag={Link} to="/">
-            New Mexico's Homeless Shelter Directory
+            Good Works Communities
           </NavbarBrand>
           <NavbarToggler onClick={this.toggleNavbar} className="mr-2" />
           <Collapse
@@ -59,7 +59,7 @@ export class NavMenu extends Component {
               </NavItem>
               <NavItem>
                 <NavLink tag={Link} className="text-dark" to="/counter">
-                  Find Shelters
+                  IDK
                 </NavLink>
               </NavItem>
               <NavItem>
@@ -91,12 +91,6 @@ export class NavMenu extends Component {
                   </DropdownItem>
                 </DropdownMenu>
               </UncontrolledDropdown>
-              <NavItem>
-                <NavLink tag={Link} className="text-dark" to="/fetch-data">
-                  {" "}
-                  Drawings & Animations
-                </NavLink>
-              </NavItem>
             </ul>
           </Collapse>
         </Navbar>

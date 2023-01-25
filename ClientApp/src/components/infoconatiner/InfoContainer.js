@@ -9,7 +9,7 @@ export class InfoContainer extends Component {
     };
   }
   clicked() {
-    if (this.state.hide == false) {
+    if (this.state.hide === false) {
       this.setState({
         hide: true,
       });
@@ -20,7 +20,7 @@ export class InfoContainer extends Component {
     }
   }
   clickedshare() {
-    if (this.state.share == false) {
+    if (this.state.share === false) {
       this.setState({
         share: true,
       });

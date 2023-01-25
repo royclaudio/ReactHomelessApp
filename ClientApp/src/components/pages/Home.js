@@ -9,13 +9,38 @@ export class Home extends Component {
     return (
       <div className="home-style">
         <div className="card-left">
+          <h1 className="titlestyle">Homeless Shelters</h1>
           <InfoContainer />
           <InfoContainer />
           <InfoContainer />
           <InfoContainer />
         </div>
-        <div className="space">
-          <Leafletmap />
+        <div className="mainbodydisp">
+          <h1 className="titlestyle">Community Services</h1>
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
+          <InfoContainer />
         </div>
       </div>
     );
